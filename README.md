@@ -53,7 +53,7 @@ Text Display + TTS
 
 ---
 
-## 📁 Struktur Folder
+## Struktur Folder
 
 ```
 detect-hand-for-text/
@@ -89,9 +89,9 @@ detect-hand-for-text/
 | Aturan        | Keterangan         |
 | ------------- | ------------------ |
 | Jumlah sample | 50–100 per gesture |
-| Gesture mirip | ❌ Tidak disarankan |
-| Class NONE    | ✅ Paling banyak    |
-| Folder kosong | ❌ Dilarang         |
+| Gesture mirip | Tidak disarankan   |
+| Class NONE    | Paling banyak      |
+| Folder kosong | Dilarang           |
 
 ---
 
@@ -142,7 +142,7 @@ Pastikan:
 
 ---
 
-## ✋ Mengumpulkan Data Gesture
+## Mengumpulkan Data Gesture
 
 ```bash
 ./ar310/bin/python gesture/collect_data.py
